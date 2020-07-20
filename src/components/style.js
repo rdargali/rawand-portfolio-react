@@ -9,6 +9,7 @@ const theme = {
     content: "#4F88A3",
     line: "#4CA7BC",
     shadow: "#0D3842",
+    bckg: "#0B0B10",
   },
   font: {
     mont: "'Montserrat', sans-serif",
@@ -31,6 +32,7 @@ export const Theme = ({ children }) => (
 export const Body = styled.div`
   max-height: 100vh;
   max-width: 100vw;
+  background-color: #0b0c10;
 `;
 
 const ImgBorder = styled.img`
@@ -43,18 +45,18 @@ const ImgBorder = styled.img`
   }
 `;
 
-export const Tl = styled(ImgBorder)`
-  top: 0;
-  left: 0;
-`;
+// export const Tl = styled(ImgBorder)`
+//   top: 0;
+//   left: 0;
+// `;
 
-export const Bl = styled(ImgBorder)`
-  bottom: 0;
-  right: 0;
-`;
+// export const Bl = styled(ImgBorder)`
+//   bottom: 0;
+//   right: 0;
+// `;
 
 export const Nav = styled.nav`
-  background-color: white;
+  background-color: #0b0c10;
   padding-top: 7%;
   user-select: none;
   z-index: 1;
@@ -205,7 +207,7 @@ export const AboutDiv = styled.div`
 
 export const Hr = styled.hr`
   border: none;
-  border-top: dotted #041114;
+  border-top: dotted #66fcf1;
   border-width: 1rem;
   width: 5rem;
   margin: auto;

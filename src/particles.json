@@ -8,13 +8,13 @@
       }
     },
     "color": {
-      "value": "#3f46b3"
+      "value": "#45a29e"
     },
     "shape": {
       "type": "circle",
       "stroke": {
         "width": 0,
-        "color": "#182F33"
+        "color": "##45a29e"
       },
       "polygon": {
         "nb_sides": 5
@@ -71,11 +71,11 @@
     "detect_on": "canvas",
     "events": {
       "onhover": {
-        "enable": true,
+        "enable": false,
         "mode": "repulse"
       },
       "onclick": {
-        "enable": true,
+        "enable": false,
         "mode": "push"
       },
       "resize": true

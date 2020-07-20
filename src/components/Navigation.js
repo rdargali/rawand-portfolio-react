@@ -10,7 +10,7 @@ function Navigation() {
 
   const linkStyle = {
     textDecoration: "none",
-    color: "#0D3843",
+    color: "#66FCF1",
   };
 
   return (
