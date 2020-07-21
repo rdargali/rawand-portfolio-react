@@ -1,5 +1,5 @@
 import React from "react";
-import { Div } from "./style";
+import { Div, Anchor } from "./style";
 import projects from "./info/projects";
 import Project from "./Project";
 

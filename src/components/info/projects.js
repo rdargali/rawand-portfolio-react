@@ -1,15 +1,21 @@
+import pokedex from "../images/pokedex.png";
+import statsdontlie from "../images/statsdontlie.png";
+import tetris from "../images/tetris.png";
+import trivia from "../images/trivia.png";
+import tweet from "../images/tweet.png";
+
 const projects = [
   {
     title: "Tetris",
-    thumbnail: "src/components/images/tetris.png",
+    thumbnail: tetris,
     description:
-      "Full Tetris game using Node.js and PostgresSQL with multiplayer functionality,  leaderboard and chatroom using sockets.io ",
+      "Full Tetris game using Node.js and PostgresSQL with multiplayer functionality,  leaderboard and chatroom using sockets.io. ",
     github: "https://github.com/rdargali/tetris",
     link: "https://powerful-ravine-73143.herokuapp.com/",
   },
   {
     title: "Trivia Night",
-    thumbnail: "src/components/images/trivia.png",
+    thumbnail: trivia,
     description:
       "This application provides trivia questions with the users' choice of category, difficulty, and number of questions. Provides single and multiplayer mode.",
 
@@ -18,7 +24,7 @@ const projects = [
   },
   {
     title: "Pokémon Pokédex",
-    thumbnail: "../images/pokedex.png",
+    thumbnail: pokedex,
     description:
       "An easy to use app made with React and Bootstrap for fans of Pokemon that replicates the 'Pokedex' from the TV show.",
     github: "https://github.com/rdargali/pokedex",
@@ -26,7 +32,7 @@ const projects = [
   },
   {
     title: "Stats Don't Lie",
-    thumbnail: "src/components/images/statsdontlie.png",
+    thumbnail: statsdontlie,
     description:
       "A React app that allows users to compare NBA players' statistics side by side using visuals such as charts and grids. ",
     github: "https://github.com/rdargali/stats-dont-lie",
@@ -34,9 +40,9 @@ const projects = [
   },
   {
     title: "Tweet Tweet",
-    thumbnail: "src/components/images/tweettweet.png",
+    thumbnail: tweet,
     description:
-      "Full Tetris game using Node.js and PostgresSQL with multiplayer functionality,  leaderboard and chatroom using sockets.io ",
+      "Bare bones Twitter clone using Node.js, Express, Sequelize, and PostGres that allows users to log in and post tweets and view other users' tweets. ",
     github: "https://github.com/rdargali/Tweet-Tweet",
     link: "https://dctweet.herokuapp.com/",
   },

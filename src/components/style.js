@@ -38,7 +38,7 @@ export const Body = styled.div`
 export const ImgBorder = styled.img`
   // position: fixed;
   user-select: none;
-  // width: 23%;
+  width: 13rem;
   // z-index: 2;
   @media (max-width: 900px) {
     visibility: hidden;
@@ -155,10 +155,10 @@ export const Img = styled.img`
     }
 `;
 
-export const projectImg = styled.img`
+export const ProjectImg = styled.img`
   height: 24rem;
   padding: 0.7rem;
-  border: 5px dashed ${(props) => props.theme.color["line"]};
+  border: 10px groove ${(props) => props.theme.color["line"]};
   user-select: none;
   @media (max-width: 720px) {
     height: 12rem;
@@ -208,4 +208,13 @@ export const Hr = styled.hr`
   border-width: 1rem;
   width: 5rem;
   margin: auto;
+`;
+
+export const Anchor = styled.a`
+  text-decoration: none;
+  background-color: none;
+  display: contents;
+
+  &:focus, &:hover, &:visited, &:link, &:active {
+    text-decoration: none;
 `;
