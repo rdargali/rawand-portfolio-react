@@ -5,7 +5,7 @@ import education from "./info/education";
 import experience from "./info/experience";
 import volunteer from "./info/volunteer";
 
-function About() {
+const About = () => {
   return (
     <Theme>
       <Div className="d-flex align-content-center align-self-center justify-content-center flex-wrap flex-column mb-5 px-md-5">
@@ -47,6 +47,6 @@ function About() {
       </Div>
     </Theme>
   );
-}
+};
 
 export default About;

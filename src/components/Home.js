@@ -4,7 +4,7 @@ import ContactInfo from "./ContactInfo";
 
 import image from "./images/profile.jpg";
 
-function Home() {
+const Home = () => {
   return (
     <Theme>
       <Div
@@ -53,6 +53,6 @@ function Home() {
       </Div>
     </Theme>
   );
-}
+};
 
 export default Home;

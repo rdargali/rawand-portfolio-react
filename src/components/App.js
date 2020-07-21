@@ -16,7 +16,7 @@ import Skills from "./Skills";
 import About from "./About";
 import Portfolio from "./Portfolio";
 
-function App() {
+const App = () => {
   return (
     <Router>
       <Body>
@@ -32,6 +32,6 @@ function App() {
       {/* <Footer>&copy; Rawand Dargali {new Date().getFullYear()}</Footer> */}
     </Router>
   );
-}
+};
 
 export default App;

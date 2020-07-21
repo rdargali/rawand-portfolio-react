@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Theme, Nav, Li, A } from "./style.js";
 import { Link } from "react-router-dom";
 
-function Navigation() {
+const Navigation = () => {
   const [home, setHome] = useState(true);
   const [skills, setSkills] = useState(false);
   const [about, setAbout] = useState(false);

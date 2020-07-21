@@ -1,7 +1,7 @@
 import React from "react";
 import { PortfolioDiv, Theme, H4 } from "./style";
 
-function Project(props) {
+const Project = (props) => {
   return (
     <Theme>
       <PortfolioDiv className="d-flex flex-column justify-content-center text-center align-items-center m-3 p-2">
@@ -13,6 +13,6 @@ function Project(props) {
       </PortfolioDiv>
     </Theme>
   );
-}
+};
 
 export default Project;

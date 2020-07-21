@@ -1,7 +1,7 @@
 import React from "react";
 import { AboutDiv, Theme, Title, Sub, D } from "./style";
 
-function Education(props) {
+const Education = (props) => {
   return (
     <Theme>
       <AboutDiv>
@@ -15,6 +15,6 @@ function Education(props) {
       </AboutDiv>
     </Theme>
   );
-}
+};
 
 export default Education;
