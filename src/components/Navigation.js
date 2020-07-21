@@ -6,7 +6,7 @@ function Navigation() {
   const [home, setHome] = useState(true);
   const [skills, setSkills] = useState(false);
   const [about, setAbout] = useState(false);
-  const [projects, setProjects] = useState(false);
+  const [portfolio, setPortfolio] = useState(false);
 
   const linkStyle = {
     textDecoration: "none",
@@ -24,7 +24,7 @@ function Navigation() {
                 setHome(true);
                 setSkills(false);
                 setAbout(false);
-                setProjects(false);
+                setPortfolio(false);
                 e.preventDefault();
               }}
             >
@@ -41,7 +41,7 @@ function Navigation() {
                 setHome(false);
                 setSkills(false);
                 setAbout(true);
-                setProjects(false);
+                setPortfolio(false);
                 e.preventDefault();
               }}
             >
@@ -58,7 +58,7 @@ function Navigation() {
                 setHome(false);
                 setSkills(true);
                 setAbout(false);
-                setProjects(false);
+                setPortfolio(false);
                 e.preventDefault();
               }}
             >
@@ -68,19 +68,19 @@ function Navigation() {
             </A>
           </Li>
 
-          <Li active={projects} className="nav-item p-md-2 p-1">
+          <Li active={portfolio} className="nav-item p-md-2 p-1">
             <A
               className="nav-link"
               onClick={(e) => {
                 setHome(false);
                 setSkills(false);
                 setAbout(false);
-                setProjects(true);
+                setPortfolio(true);
                 e.preventDefault();
               }}
             >
-              <Link to={"projects"} style={linkStyle}>
-                PROJECTS
+              <Link to={"portfolio"} style={linkStyle}>
+                PORTFOLIO
               </Link>
             </A>
           </Li>

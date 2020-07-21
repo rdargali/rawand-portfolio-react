@@ -14,21 +14,19 @@ import Navigation from "./Navigation";
 import Home from "./Home";
 import Skills from "./Skills";
 import About from "./About";
-import Projects from "./Projects";
+import Portfolio from "./Portfolio";
 
 function App() {
   return (
     <Router>
       <Body>
         <Particles params={particles} />
-        {/* <Tl src={tl} alt="top-left"></Tl>
-        <Bl src={br} alt="bottom-right"></Bl> */}
         <Navigation />
         <Switch>
           <Route path={"/"} exact component={Home} />
           <Route path={"/skills"} component={Skills} />
           <Route path={"/about"} component={About} />
-          <Route path={"/projects"} component={Projects} />
+          <Route path={"/portfolio"} component={Portfolio} />
         </Switch>
       </Body>
       {/* <Footer>&copy; Rawand Dargali {new Date().getFullYear()}</Footer> */}

@@ -45,16 +45,6 @@ export const ImgBorder = styled.img`
   }
 `;
 
-// export const Tl = styled(ImgBorder)`
-//   top: 0;
-//   left: 0;
-// `;
-
-// export const Bl = styled(ImgBorder)`
-//   bottom: 0;
-//   right: 0;
-// `;
-
 export const Nav = styled.nav`
   background-color: #0b0c10;
   padding-top: 7%;
@@ -177,14 +167,21 @@ export const projectImg = styled.img`
 `;
 
 export const SkillDiv = styled.div`
-  /* background-color: rgb(255, 255, 255, .7); */
   border-radius: 5px;
   min-width: 25%;
   max-width: 28%;
   @media (max-width: 720px) {
     max-width: 100%;
   }
-  /* https://www.cssmatic.com/box-shadow */
+`;
+
+export const PortfolioDiv = styled.div`
+  border-radius: 5px;
+  min-width: 25%;
+  max-width: 28%;
+  @media (max-width: 720px) {
+    max-width: 100%;
+  }
 `;
 
 export const H4 = styled.h4`
