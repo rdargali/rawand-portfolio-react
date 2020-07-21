@@ -35,7 +35,7 @@ export const Body = styled.div`
   max-width: 100vw;
 `;
 
-const ImgBorder = styled.img`
+export const ImgBorder = styled.img`
   position: fixed;
   user-select: none;
   width: 23%;
