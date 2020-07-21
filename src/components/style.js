@@ -156,7 +156,7 @@ export const Img = styled.img`
 `;
 
 export const ProjectImg = styled.img`
-  height: 24rem;
+  height: 17rem;
   padding: 0.7rem;
   border: 10px groove ${(props) => props.theme.color["line"]};
   user-select: none;
