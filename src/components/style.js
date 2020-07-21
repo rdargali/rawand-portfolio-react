@@ -36,10 +36,10 @@ export const Body = styled.div`
 `;
 
 export const ImgBorder = styled.img`
-  position: fixed;
+  // position: fixed;
   user-select: none;
-  width: 23%;
-  z-index: 2;
+  // width: 23%;
+  // z-index: 2;
   @media (max-width: 900px) {
     visibility: hidden;
   }
