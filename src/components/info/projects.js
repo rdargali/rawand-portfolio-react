@@ -17,7 +17,7 @@ const projects = [
     title: "Trivia Night",
     thumbnail: trivia,
     description:
-      "This application provides trivia questions with the users' choice of category, difficulty, and number of questions. Provides single and multiplayer mode.",
+      "Challenge yourself with trivia of your choice of category, difficulty, and number of questions. Provides single and multiplayer mode.",
 
     github: "https://github.com/rdargali/TriviaApp",
     link: "https://summerbr.github.io/TriviaApp/",
@@ -42,7 +42,7 @@ const projects = [
     title: "Tweet Tweet",
     thumbnail: tweet,
     description:
-      "Bare bones Twitter clone using Node.js, Express, Sequelize, and PostGres that allows users to log in and post tweets and view other users' tweets. ",
+      "Twitter clone using Node.js, Express, Sequelize, and PostGres that allows users to log in and post tweets and view other users' tweets. ",
     github: "https://github.com/rdargali/Tweet-Tweet",
     link: "https://dctweet.herokuapp.com/",
   },

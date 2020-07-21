@@ -125,6 +125,10 @@ export const D = styled(P)`
   margin: 0;
 `;
 
+export const PD = styled(P)`
+  font-size: small;
+`;
+
 export const Title = styled(Sub)`
   font-size: 1.2rem;
   color: ${(props) => props.theme.color["title"]};
@@ -136,7 +140,7 @@ export const Title = styled(Sub)`
 
 export const I = styled.i`
   color: ${(props) => props.theme.color["title"]};
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   margin-right: 0.5rem;
   vertical-align: middle;
   &:hover {
@@ -144,22 +148,36 @@ export const I = styled.i`
   }
 `;
 
+export const PI = styled.i`
+  color: ${(props) => props.theme.color["line"]};
+  font-size: 3rem;
+  margin-right: 0.5rem;
+  vertical-align: middle;
+  &:hover {
+    color: ${(props) => props.theme.color["title"]};
+  }
+`;
+
 export const Img = styled.img`
-    height: 24rem;
-    padding: .7rem;
-    // border: 5px dashed ${(props) => props.theme.color["line"]}; 
-    user-select: none;
-    @media(max-width: 720px) {
-        height: 12rem;
-        border-width: 4px;
-    }
+height: 17rem;
+padding: .7rem;
+// border: 5px dashed ${(props) => props.theme.color["line"]}; 
+user-select: none;
+@media(max-width: 720px) {
+  height: 12rem;
+  border-width: 4px;
+}
 `;
 
 export const ProjectImg = styled.img`
-  height: 17rem;
+  width: 10rem;
+  height: 10rem;
   padding: 0.7rem;
   border: 10px groove ${(props) => props.theme.color["line"]};
   user-select: none;
+  &:hover {
+    border: 10px groove ${(props) => props.theme.color["title"]};
+  }
   @media (max-width: 720px) {
     height: 12rem;
     border-width: 4px;
@@ -213,7 +231,7 @@ export const Hr = styled.hr`
 export const Anchor = styled.a`
   text-decoration: none;
   background-color: none;
-  display: contents;
+  
 
   &:focus, &:hover, &:visited, &:link, &:active {
     text-decoration: none;
