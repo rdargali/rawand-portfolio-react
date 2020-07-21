@@ -22,7 +22,8 @@ export const Particles = styled(particles)`
   position: fixed;
   width: 100vw;
   height: 100%;
-  z-index: -3;
+  z-index: -10;
+  background: #0b0c10;
 `;
 
 export const Theme = ({ children }) => (
@@ -32,7 +33,6 @@ export const Theme = ({ children }) => (
 export const Body = styled.div`
   max-height: 100vh;
   max-width: 100vw;
-  background-color: #0b0c10;
 `;
 
 const ImgBorder = styled.img`

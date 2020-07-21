@@ -37,7 +37,12 @@ function Home() {
             </div>
           </div>
           <div className="d-flex">
-            <ContactInfo logo="fas fa-envelope" info="rdargali@gmail.com" />
+            <ContactInfo
+              logo="fas fa-envelope"
+              info="rdargali@gmail.com"
+              link="mailto:rdargali@gmail.com"
+            />
+
             <ContactInfo
               logo="fas fa-briefcase ml-2"
               info="My Resume"
