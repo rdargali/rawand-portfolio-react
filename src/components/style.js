@@ -159,14 +159,13 @@ export const PI = styled.i`
 `;
 
 export const Img = styled.img`
-height: 17rem;
-padding: .7rem;
-// border: 5px dashed ${(props) => props.theme.color["line"]}; 
-user-select: none;
-@media(max-width: 720px) {
-  height: 12rem;
-  border-width: 4px;
-}
+  height: 25rem;
+  border: 10px groove ${(props) => props.theme.color["title"]};
+  user-select: none;
+  @media (max-width: 720px) {
+    height: 12rem;
+    border-width: 4px;
+  }
 `;
 
 export const ProjectImg = styled.img`
