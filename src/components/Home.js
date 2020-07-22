@@ -22,17 +22,14 @@ const Home = () => {
               <ContactInfo
                 link="https://github.com/rdargali"
                 logo="fab fa-github ml-2 mr-3"
-                // info="rdargali"
               />
               <ContactInfo
                 link="https://www.linkedin.com/in/rdargali/"
                 logo="fab fa-linkedin mr-3"
-                // info="rdargali"
               />
               <ContactInfo
                 link="https://www.instagram.com/rawandd91/"
                 logo="fab fa-instagram mr-3"
-                // info="rdargali"
               />
             </div>
           </div>
