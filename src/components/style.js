@@ -170,9 +170,9 @@ user-select: none;
 `;
 
 export const ProjectImg = styled.img`
-  width: 10rem;
-  height: 10rem;
-  padding: 0.7rem;
+  width: 15rem;
+  height: 15rem;
+
   border: 10px groove ${(props) => props.theme.color["line"]};
   user-select: none;
   &:hover {

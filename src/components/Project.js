@@ -5,8 +5,8 @@ const Project = (props) => {
   return (
     <Theme>
       <PortfolioDiv className="d-flex flex-column justify-content-center  align-items-center">
-        <Anchor href={props.link}>
-          <H4>{props.title}</H4>
+        <H4>{props.title}</H4>
+        <Anchor className="m-3" href={props.link}>
           <ProjectImg src={props.thumbnail} />
         </Anchor>
         <div className="d-flex mt-3">
