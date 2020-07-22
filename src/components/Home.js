@@ -1,8 +1,8 @@
 import React from "react";
 import { Theme, Div, H1, Sub, Img } from "./style";
 import ContactInfo from "./ContactInfo";
-
 import image from "./images/profile.jpg";
+import resume from "../resume.pdf";
 
 const Home = () => {
   return (
@@ -46,7 +46,7 @@ const Home = () => {
             <ContactInfo
               logo="fas fa-briefcase ml-2"
               info="My Resume"
-              link="/public/resume.pdf"
+              link={resume}
             />
           </div>
         </div>
