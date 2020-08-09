@@ -3,6 +3,7 @@ import statsdontlie from "../images/statsdontlie.png";
 import tetris from "../images/tetris.png";
 import trivia from "../images/trivia.png";
 import tweet from "../images/tweet.png";
+import sirentimer from "../images/sirentimer.gif";
 
 const projects = [
   {
@@ -37,6 +38,14 @@ const projects = [
       "A React app that allows users to compare NBA players' statistics side by side using visuals such as charts and grids. ",
     github: "https://github.com/rdargali/stats-dont-lie",
     link: "https://statsdontlie.netlify.app/",
+  },
+  {
+    title: "Siren Timer",
+    thumbnail: sirentimer,
+    description:
+      " A countdown timer for the hearing impaired that uses loud visuals instead of loud sounds to signal the end of a timer. Made with HTML, CSS, and JavaScript.",
+    github: "https://github.com/rdargali/siren-timer",
+    link: "https://sirentimer.netlify.app/",
   },
   {
     title: "Tweet Tweet",
