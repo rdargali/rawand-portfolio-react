@@ -6,12 +6,12 @@ const Project = (props) => {
     <Theme>
       <PortfolioDiv className="d-flex flex-column justify-content-center  align-items-center">
         <H4>{props.title}</H4>
-        <Anchor className="m-3" href={props.link}>
+        <Anchor target="_blank" className="m-3" href={props.link}>
           <ProjectImg src={props.thumbnail} />
         </Anchor>
         <div className="d-flex mt-3">
           <PD>{props.description}</PD>
-          <Anchor href={props.github}>
+          <Anchor target="_blank" href={props.github}>
             <PI className="fa fa-github-square ml-1" aria-hidden="true"></PI>
           </Anchor>
         </div>
