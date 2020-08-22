@@ -4,6 +4,7 @@ import tetris from "../images/tetris.png";
 import trivia from "../images/trivia.png";
 import tweet from "../images/tweet.png";
 import sirentimer from "../images/sirentimer.gif";
+import multistopwatch from "../images/multistopwatch.png";
 
 const projects = [
   {
@@ -46,6 +47,14 @@ const projects = [
       " A countdown timer for the hearing impaired that uses loud visuals instead of loud sounds to signal the end of a timer. Made with HTML, CSS, and JavaScript.",
     github: "https://github.com/rdargali/siren-timer",
     link: "https://sirentimer.netlify.app/",
+  },
+  {
+    title: "Multi Stopwatch",
+    thumbnail: multistopwatch,
+    description:
+      " Display multiple stopwatches to time multiple processes concurrently. Created for the Neurobiology of Memory lab at the University of Texas at Dallas for neural engineering and studies on PTSD",
+    github: "https://github.com/rdargali/multi-stop-watch",
+    link: "https://multistopwatch.netlify.app/",
   },
   {
     title: "Tweet Tweet",
