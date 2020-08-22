@@ -19,7 +19,7 @@ const projects = [
     title: "Trivia Night",
     thumbnail: trivia,
     description:
-      "Challenge yourself with trivia of your choice of category, difficulty, and number of questions. Provides single and multiplayer mode.",
+      "Challenge yourself with trivia of your choice of category, difficulty, and number of questions. Provides single and multiplayer mode. Utilizes Bootstrap and Firebase on the server.",
 
     github: "https://github.com/rdargali/TriviaApp",
     link: "https://summerbr.github.io/TriviaApp/",
@@ -52,7 +52,7 @@ const projects = [
     title: "Multi Stopwatch",
     thumbnail: multistopwatch,
     description:
-      " Display multiple stopwatches to time multiple processes concurrently. Created for the Neurobiology of Memory lab at the University of Texas at Dallas for neural engineering and studies on PTSD",
+      " Displays multiple stopwatches to time multiple processes concurrently. Created with React for the Neurobiology of Memory lab at the University of Texas at Dallas for neural engineering and studies on PTSD.",
     github: "https://github.com/rdargali/multi-stop-watch",
     link: "https://multistopwatch.netlify.app/",
   },
