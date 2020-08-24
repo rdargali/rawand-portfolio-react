@@ -194,7 +194,7 @@ export const SkillDiv = styled.div`
 
 export const ProjectDiv = styled.div`
   min-width: 25%;
-  max-width: 28%;
+  max-width: 25%;
   @media (max-width: 720px) {
     max-width: 100%;
   }
