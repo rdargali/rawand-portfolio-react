@@ -192,8 +192,7 @@ export const SkillDiv = styled.div`
   }
 `;
 
-export const PortfolioDiv = styled.div`
-  border-radius: 5px;
+export const ProjectDiv = styled.div`
   min-width: 25%;
   max-width: 28%;
   @media (max-width: 720px) {

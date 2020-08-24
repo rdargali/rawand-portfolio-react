@@ -5,7 +5,8 @@ import Project from "./Project";
 
 const Portfolio = () => {
   return (
-    <Div className="d-flex align-content-center align-self-center justify-content-center flex-wrap flex-column">
+    // <Div className="d-flex align-content-center justify-content-center flex-wrap flex-column ">
+    <Div className="d-flex align-content-center justify-content-center flex-wrap flex-column ">
       {projects.map((proj) => (
         <Project
           key={proj.title}
