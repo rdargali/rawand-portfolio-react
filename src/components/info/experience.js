@@ -2,7 +2,7 @@ const experience = [
   {
     id: 1,
 
-    title: "Various Clients - Freelancer",
+    title: "Various Clients - Freelancer Web Developer",
     location: "Houston, TX",
     year: "May 2020 – Present",
     description: [
