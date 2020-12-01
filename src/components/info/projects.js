@@ -5,6 +5,7 @@ import trivia from "../images/trivia.png";
 import tweet from "../images/tweet.png";
 import sirentimer from "../images/sirentimer.gif";
 import multistopwatch from "../images/multistopwatch.png";
+import elevatedplusmazestopwatch from "../images/elevatedplusmazestopwatch.png";
 
 const projects = [
   {
@@ -41,10 +42,18 @@ const projects = [
     link: "https://statsdontlie.netlify.app/",
   },
   {
+    title: "Elevated Plus Maze Stopwatch",
+    thumbnail: elevatedplusmazestopwatch,
+    description:
+      "An optimized timer for scoring results on an elevated plus maze. Created with HTML, CSS, and JavaScript for the Neurobiology of Memory lab at the University of Texas at Dallas for neural engineering and studies on PTSD.",
+    github: "https://github.com/rdargali/elevated-plus-maze-stopwatch",
+    link: "https://epms.netlify.app/",
+  },
+  {
     title: "Siren Timer",
     thumbnail: sirentimer,
     description:
-      " A countdown timer for the hearing impaired that uses loud visuals instead of loud sounds to signal the end of a timer. Made with HTML, CSS, and JavaScript.",
+      " A countdown timer for the hearing impaired that uses loud visuals instead of loud sounds to signal the end of a timer. Created with HTML, CSS, and JavaScript for the Neurobiology of Memory lab at the University of Texas at Dallas for neural engineering and studies on PTSD.",
     github: "https://github.com/rdargali/siren-timer",
     link: "https://sirentimer.netlify.app/",
   },
