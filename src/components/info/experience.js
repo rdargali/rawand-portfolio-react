@@ -24,7 +24,7 @@ const experience = [
 
     title: "Tandoor Junction - Financial Analyst",
     location: "Dallas, TX",
-    year: "June 2015 – August 2016",
+    year: "June 2015 – August 2017",
     description: [
       "Analyzed financial data to produce forecasts of economic conditions for use in making investment decisions. Assembled spreadsheets and visual data such as charts, graphs, and pivot tables to illustrate technical reports.",
     ],
