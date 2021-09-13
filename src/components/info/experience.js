@@ -1,6 +1,16 @@
 const experience = [
-  {
+   {
     id: 1,
+
+    title: "Fiserv - Conversion Data Analyst",
+    location: "Frisco, TX",
+    year: "January 2021 – Present",
+    description: [
+      "Provide analysis and consultation to new and existing clients during core credit union data conversions as well as determining implementation requirements for configuring desired software specifications.",
+    ],
+  },
+  {
+    id: 2,
 
     title: "Various Clients - Freelancer Web Developer",
     location: "Houston, TX",
@@ -10,7 +20,7 @@ const experience = [
     ],
   },
   {
-    id: 2,
+    id: 3,
 
     title: "AIG Retirement - Financial Advisor",
     location: "Dallas, TX",
@@ -20,7 +30,7 @@ const experience = [
     ],
   },
   {
-    id: 3,
+    id: 4,
 
     title: "Tandoor Junction - Financial Analyst",
     location: "Dallas, TX",
@@ -30,7 +40,7 @@ const experience = [
     ],
   },
   {
-    id: 4,
+    id: 5,
 
     title: "DCS Healthcare - Respite Provider",
     location: "Plano, TX",
